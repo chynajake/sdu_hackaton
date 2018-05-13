@@ -39,4 +39,6 @@ var params = {
     representation: 'display'
 };
 
+console.log(params);
+
 new Routing(map, platform, params).drawRoute();
