@@ -43,4 +43,4 @@ var group = new H.map.Group(); // create a group to hold map objects
 group.addObjects(reader.getParsedObjects()); // add objects to the group
 map.addObject(group); // add group to the map
 
-// group.addEventListener('tap', (ev) => {alert(ev.target.getData().properties.name)});
+group.addEventListener('tap', (ev) => {alert(ev.target.getData().properties.name)});
